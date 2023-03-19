@@ -1,12 +1,9 @@
-import { combineReducers, createStore } from "redux";
+import { combineReducers, legacy_createStore, applyMiddleware } from "redux";
 import CounterReducer from "./reducer/CounterReducer";
+import thunk from "redux-thunk";
 
 const reducers = combineReducers({ CounterReducer });
 
-const store = createStore(reducers);
+const store = legacy_createStore(reducers, applyMiddleware(thunk));
 
-const configureStore = () => {
-  return store;
-};
-
-export default configureStore;
+export default store;

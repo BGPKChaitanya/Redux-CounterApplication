@@ -28,3 +28,9 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+.msg {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  color: white;
+}
