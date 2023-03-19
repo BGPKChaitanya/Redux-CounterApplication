@@ -1,0 +1,30 @@
+.outer-container {
+  width: 35vw;
+  padding: 0 25px 25px 25px;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.heading {
+  font-size: 25px;
+  color: rgb(202, 164, 164);
+}
+.value {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0px;
+  color: white;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(59, 58, 61);
+  outline: none;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
